@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build output
+client/dist/
+
+# Keep environment variables out of version control
+.env
+.env.local
+client/.env
+client/.env.local
+
+# Generated Prisma client
+/src/generated/prisma/
